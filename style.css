@@ -1,0 +1,317 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(3, 56, 244, 0.71) 0%,
+    rgba(224, 37, 206, 0.79) 93.75%
+  );
+  margin: 0 auto;
+}
+
+.box {
+  max-width: 400px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.35);
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding-left: 15px;
+
+  color: #fff;
+  font-family: "Calibri";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box-2 {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.35);
+}
+.box-2 ul {
+  font-family: "Calibri";
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+.box-2 h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  color: #fff;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.about-me {
+  width: 40%;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.3);
+  margin: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 18px 46px 18px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile #my-photo {
+  border-radius: 100%;
+  width: 110px;
+  height: 116px;
+}
+.profile #name {
+  max-width: 300px;
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.languages li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social li a {
+  text-decoration: none;
+  font-family: "Calibri";
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.hobbies-heading {
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.35);
+  width: 200px;
+  height: 50px;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+}
+.hobbies p {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 128.571% */
+  margin-bottom: 20px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.item__content p {
+  color: #e5e5e5;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 180% */
+}
+.edu-skill {
+  width: 60%;
+  border-radius: 10px;
+  background: #fff;
+  margin: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 19px 18px 18px 18px;
+}
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+}
+.heading p {
+  padding: 10px;
+  border-radius: 5px;
+  background: #545454;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+hr {
+  width: 70%;
+  height: 1px;
+  background: #545454;
+}
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience__content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.experience__content h1 {
+  color: #343434;
+  font-family: "Calibri";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+.experience__content #post {
+  color: #343434;
+  font-family: "Calibri";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.experience__content #date {
+  color: #73808d;
+  font-family: "Calibri";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.experience__content #details {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Calibri";
+  font-size: 20px;
+
+  font-weight: 400;
+  line-height: 25px;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.education__content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.education__content #sub {
+  color: #343434;
+  font-family: "Calibri";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.education__content #institution {
+  color: #343434;
+  font-family: "Calibri";
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 18px;
+}
+.education__content #date {
+  color: #73808d;
+  font-family: "Calibri";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.experience__content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style-position: inside;
+}
+.experience__content ul li {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Calibri";
+  font-size: 18px;
+
+  font-weight: 500;
+  line-height: 25px;
+}
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.skill-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.My-project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.project__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.projects img {
+  width: 200;
+  height: 150px;
+}
+.projects p {
+  /* text-align: center; */
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Calibri";
+  font-size: 20px;
+
+  font-weight: 400;
+  line-height: 25px;
+}
+.hov:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+}
